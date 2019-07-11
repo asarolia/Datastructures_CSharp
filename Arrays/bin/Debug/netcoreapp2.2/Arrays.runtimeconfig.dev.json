@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\asarolia.EAD\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\asarolia.EAD\\.nuget\\packages",
+      "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+}
