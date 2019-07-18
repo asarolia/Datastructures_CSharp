@@ -1,3 +1,7 @@
+/*
+Given a string reverse it in most efficient manner
+ */
+
 using System;
 
 namespace Arrays

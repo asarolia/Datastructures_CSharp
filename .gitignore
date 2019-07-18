@@ -1,3 +1,6 @@
 .vscode/*
 Arrays/bin/Debug/*
+Arrays/bin/Debug/netcoreapp2.2/*
 Arrays/obj/Debug/*
+Arrays/obj/Debug/netcoreapp2.2/*
+.gitignore
