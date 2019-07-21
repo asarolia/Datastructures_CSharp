@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "HashTable/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HashTable.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HashTable.dll": {}
+        }
       }
     }
   },
@@ -678,10 +688,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "HashTable/1.0.0": {
+      "type": "project",
+      "path": "../HashTable/HashTable.csproj",
+      "msbuildProject": "../HashTable/HashTable.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "HashTable >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -714,7 +730,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\github\\datastructures_csharp\\HashTable\\HashTable.csproj": {
+              "projectPath": "D:\\github\\datastructures_csharp\\HashTable\\HashTable.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

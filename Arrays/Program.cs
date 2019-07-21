@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Text;
+using HashTable;
+
 
 namespace Arrays
 {
@@ -27,9 +30,15 @@ namespace Arrays
              //   Console.WriteLine(robj.BetterReverseMe(name));
 
             // Merge Sorted Arrays
-                MergedArray mobj = new MergedArray();
-                mobj.NaiveMerge(arr1,arr2);
+              //  MergedArray mobj = new MergedArray();
+              //  mobj.NaiveMerge(arr1,arr2);
 
+              //  Console.WriteLine("Charcter code :" + string.Join("",Encoding.ASCII.GetBytes("A")));
+
+            // HashTable Implementation 
+                HashClass myHashTable = new HashClass(5) ;
+                myHashTable.SetValue("grapes",1000);
+                myHashTable.GetValue("grapes");
 
 
         }
