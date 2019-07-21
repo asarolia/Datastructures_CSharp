@@ -36,9 +36,13 @@ namespace Arrays
               //  Console.WriteLine("Charcter code :" + string.Join("",Encoding.ASCII.GetBytes("A")));
 
             // HashTable Implementation 
-                HashClass myHashTable = new HashClass(5) ;
-                myHashTable.SetValue("grapes",1000);
-                myHashTable.GetValue("grapes");
+             //   HashClass myHashTable = new HashClass(5) ;
+             //   myHashTable.SetValue("grapes",1000);
+             //   myHashTable.GetValue("grapes");
+
+            // Google interview for first repeating character
+                GoogleInterview2 robj = new GoogleInterview2();
+                robj.PrintRecurringElement();
 
 
         }
