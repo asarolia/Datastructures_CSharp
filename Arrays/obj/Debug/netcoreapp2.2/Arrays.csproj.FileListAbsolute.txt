@@ -9,3 +9,8 @@ D:\github\datastructures_csharp\Arrays\obj\Debug\netcoreapp2.2\Arrays.AssemblyIn
 D:\github\datastructures_csharp\Arrays\obj\Debug\netcoreapp2.2\Arrays.AssemblyInfo.cs
 D:\github\datastructures_csharp\Arrays\obj\Debug\netcoreapp2.2\Arrays.dll
 D:\github\datastructures_csharp\Arrays\obj\Debug\netcoreapp2.2\Arrays.pdb
+D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\HashTable.dll
+D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\HashTable.pdb
+D:\github\datastructures_csharp\Arrays\obj\Debug\netcoreapp2.2\Arrays.csproj.CopyComplete
+D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\LinkedList.dll
+D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\LinkedList.pdb

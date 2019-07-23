@@ -1,0 +1,9 @@
+D:\github\datastructures_csharp\LinkedList\bin\Debug\netstandard2.0\LinkedList.deps.json
+D:\github\datastructures_csharp\LinkedList\bin\Debug\netstandard2.0\LinkedList.dll
+D:\github\datastructures_csharp\LinkedList\bin\Debug\netstandard2.0\LinkedList.pdb
+D:\github\datastructures_csharp\LinkedList\obj\Debug\netstandard2.0\LinkedList.csprojAssemblyReference.cache
+D:\github\datastructures_csharp\LinkedList\obj\Debug\netstandard2.0\LinkedList.csproj.CoreCompileInputs.cache
+D:\github\datastructures_csharp\LinkedList\obj\Debug\netstandard2.0\LinkedList.AssemblyInfoInputs.cache
+D:\github\datastructures_csharp\LinkedList\obj\Debug\netstandard2.0\LinkedList.AssemblyInfo.cs
+D:\github\datastructures_csharp\LinkedList\obj\Debug\netstandard2.0\LinkedList.dll
+D:\github\datastructures_csharp\LinkedList\obj\Debug\netstandard2.0\LinkedList.pdb

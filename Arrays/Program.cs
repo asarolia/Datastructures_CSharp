@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Text;
+using HashTable;
+using LinkedList;
+
 
 namespace Arrays
 {
@@ -27,9 +31,31 @@ namespace Arrays
              //   Console.WriteLine(robj.BetterReverseMe(name));
 
             // Merge Sorted Arrays
-                MergedArray mobj = new MergedArray();
-                mobj.NaiveMerge(arr1,arr2);
+              //  MergedArray mobj = new MergedArray();
+              //  mobj.NaiveMerge(arr1,arr2);
 
+              //  Console.WriteLine("Charcter code :" + string.Join("",Encoding.ASCII.GetBytes("A")));
+
+            //  My HashTable Implementation 
+             //   HashClass myHashTable = new HashClass(5) ;
+             //   myHashTable.SetValue("grapes",1000);
+             //   myHashTable.GetValue("grapes");
+
+            // Google interview for first repeating character
+            //    GoogleInterview2 robj = new GoogleInterview2();
+            //    robj.PrintRecurringElement();
+
+            // My Linked List implementation 
+               LinkedListClass myLinkedList = new LinkedListClass(10);
+               myLinkedList.AppendNode(25);
+               myLinkedList.AppendNode(5);
+               myLinkedList.PrePend(4);
+               myLinkedList.PrePend(1);
+                myLinkedList.PrintAllNodes();
+               myLinkedList.Insert(3,100);
+               myLinkedList.PrintAllNodes();
+               myLinkedList.Remove(25);
+               myLinkedList.PrintAllNodes();
 
 
         }
