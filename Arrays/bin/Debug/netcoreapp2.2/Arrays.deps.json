@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.2": {
       "Arrays/1.0.0": {
         "dependencies": {
-          "HashTable": "1.0.0"
+          "HashTable": "1.0.0",
+          "LinkedList": "1.0.0"
         },
         "runtime": {
           "Arrays.dll": {}
@@ -17,6 +18,11 @@
       "HashTable/1.0.0": {
         "runtime": {
           "HashTable.dll": {}
+        }
+      },
+      "LinkedList/1.0.0": {
+        "runtime": {
+          "LinkedList.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "HashTable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinkedList/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
