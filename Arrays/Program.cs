@@ -45,17 +45,31 @@ namespace Arrays
             //    GoogleInterview2 robj = new GoogleInterview2();
             //    robj.PrintRecurringElement();
 
-            // My Linked List implementation 
-               LinkedListClass myLinkedList = new LinkedListClass(10);
-               myLinkedList.AppendNode(25);
-               myLinkedList.AppendNode(5);
-               myLinkedList.PrePend(4);
-               myLinkedList.PrePend(1);
-                myLinkedList.PrintAllNodes();
-               myLinkedList.Insert(3,100);
-               myLinkedList.PrintAllNodes();
-               myLinkedList.Remove(25);
-               myLinkedList.PrintAllNodes();
+            // My Singly Linked List implementation 
+              //  LinkedListClass myLinkedList = new LinkedListClass(10);
+              //  myLinkedList.AppendNode(25);
+              //  myLinkedList.AppendNode(5);
+              //  myLinkedList.PrePend(4);
+              //  myLinkedList.PrePend(1);
+              //   myLinkedList.PrintAllNodes();
+              //  myLinkedList.Insert(3,100);
+              //  myLinkedList.PrintAllNodes();
+              //  myLinkedList.Remove(25);
+              //  myLinkedList.PrintAllNodes();
+
+               // My Doubly Linked List implementation 
+               DoublyLinkedList mydLinkedList = new DoublyLinkedList(10);
+               mydLinkedList.AppendNode(25);
+               mydLinkedList.AppendNode(5);
+               mydLinkedList.PrePend(4);
+               mydLinkedList.PrePend(1);
+                mydLinkedList.PrintAllNodes();
+               mydLinkedList.Insert(3,100);
+               mydLinkedList.PrintAllNodes();
+               mydLinkedList.Remove(25);
+                mydLinkedList.Remove(1);
+                 mydLinkedList.Remove(5);
+               mydLinkedList.PrintAllNodes();
 
 
         }
