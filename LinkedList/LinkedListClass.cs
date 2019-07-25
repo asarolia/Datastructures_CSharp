@@ -107,29 +107,60 @@ namespace LinkedList
 
         }
 
-        public void Remove(int value)
-        {
-            LinkNode temp = this.head;
-            LinkNode pred = this.head;
-           // LinkNode succ;
+       // Function to remove node in linked list = > time complexity O (n)
+       public void Remove(int value)
+		{
+			LinkNode temp = this.head;
+			LinkNode pred = this.head;
+			LinkNode succ = this.head.NEXT;
+			// LinkNode succ;
+			if(this.head.NODEVALUE == value)
+			{
+				this.head = succ;
+				this.nodeLength--;
+			}
+			else
+			{
+				while (temp != null)
+				{
+					if (temp.NODEVALUE == value)
+					{
+						pred.NEXT = temp.NEXT;
+						this.nodeLength--;
+						break;
+					}
+					else
+					{
+						pred = temp;
+						temp = temp.NEXT;
+						// succ = temp.NEXT;
+					}
 
-            while (temp != null)
-            {
-                if(temp.NODEVALUE == value)
-                {
-                    pred.NEXT = temp.NEXT;
-                    this.nodeLength--;
-                    break;
-                }else
-                {
-                    pred = temp;
-                    temp = temp.NEXT;
-                   // succ = temp.NEXT;
-                }
+				}
+			}
 
-            }
-        }
-        
+			
+		}
+
+        // function to reverse the linked list : O(n)
+		public void ReverseList()
+		{
+			LinkNode current = this.head;
+			LinkNode previous = null;
+			LinkNode next = this.head;
+
+			while (current != null)
+			{
+				next = current.NEXT;
+				current.NEXT = previous;
+				previous = current;
+				current = next;
+			}
+
+			this.head = previous;
+
+		}
+
 
       
     }

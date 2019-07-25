@@ -227,6 +227,26 @@
         "runtime": {
           "bin/placeholder/LinkedList.dll": {}
         }
+      },
+      "Queues/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Queues.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Queues.dll": {}
+        }
+      },
+      "Stacks/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Stacks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stacks.dll": {}
+        }
       }
     }
   },
@@ -708,13 +728,25 @@
       "type": "project",
       "path": "../LinkedList/LinkedList.csproj",
       "msbuildProject": "../LinkedList/LinkedList.csproj"
+    },
+    "Queues/1.0.0": {
+      "type": "project",
+      "path": "../Queues/Queues.csproj",
+      "msbuildProject": "../Queues/Queues.csproj"
+    },
+    "Stacks/1.0.0": {
+      "type": "project",
+      "path": "../Stacks/Stacks.csproj",
+      "msbuildProject": "../Stacks/Stacks.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "HashTable >= 1.0.0",
       "LinkedList >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Queues >= 1.0.0",
+      "Stacks >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -752,6 +784,12 @@
             },
             "D:\\github\\datastructures_csharp\\LinkedList\\LinkedList.csproj": {
               "projectPath": "D:\\github\\datastructures_csharp\\LinkedList\\LinkedList.csproj"
+            },
+            "D:\\github\\datastructures_csharp\\Queues\\Queues.csproj": {
+              "projectPath": "D:\\github\\datastructures_csharp\\Queues\\Queues.csproj"
+            },
+            "D:\\github\\datastructures_csharp\\Stacks\\Stacks.csproj": {
+              "projectPath": "D:\\github\\datastructures_csharp\\Stacks\\Stacks.csproj"
             }
           }
         }

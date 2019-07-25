@@ -2,6 +2,8 @@
 using System.Text;
 using HashTable;
 using LinkedList;
+using Queues;
+using Stacks;
 
 
 namespace Arrays
@@ -51,25 +53,51 @@ namespace Arrays
               //  myLinkedList.AppendNode(5);
               //  myLinkedList.PrePend(4);
               //  myLinkedList.PrePend(1);
-              //   myLinkedList.PrintAllNodes();
+              // //  myLinkedList.PrintAllNodes();
               //  myLinkedList.Insert(3,100);
-              //  myLinkedList.PrintAllNodes();
+              // // myLinkedList.PrintAllNodes();
               //  myLinkedList.Remove(25);
+              //  myLinkedList.PrintAllNodes();
+              //  myLinkedList.ReverseList();
               //  myLinkedList.PrintAllNodes();
 
                // My Doubly Linked List implementation 
-               DoublyLinkedList mydLinkedList = new DoublyLinkedList(10);
-               mydLinkedList.AppendNode(25);
-               mydLinkedList.AppendNode(5);
-               mydLinkedList.PrePend(4);
-               mydLinkedList.PrePend(1);
-                mydLinkedList.PrintAllNodes();
-               mydLinkedList.Insert(3,100);
-               mydLinkedList.PrintAllNodes();
-               mydLinkedList.Remove(25);
-                mydLinkedList.Remove(1);
-                 mydLinkedList.Remove(5);
-               mydLinkedList.PrintAllNodes();
+              //  DoublyLinkedList mydLinkedList = new DoublyLinkedList(10);
+              //  mydLinkedList.AppendNode(25);
+              //  mydLinkedList.AppendNode(5);
+              //  mydLinkedList.PrePend(4);
+              //  mydLinkedList.PrePend(1);
+              //   mydLinkedList.PrintAllNodes();
+              //  mydLinkedList.Insert(3,100);
+              //  mydLinkedList.PrintAllNodes();
+              //  mydLinkedList.Remove(25);
+              //   mydLinkedList.Remove(1);
+              //   mydLinkedList.Remove(5);
+              //  mydLinkedList.PrintAllNodes();
+
+              // My stacks implementation using LinkedList as ADT
+              // LinkedStack mystack = new LinkedStack(50);
+              // mystack.push(35);
+              // mystack.push(5);
+              // mystack.push(69);
+              // mystack.push(24);
+              // mystack.peek();
+              // mystack.pop();
+              // mystack.peek();
+              // mystack.pop();
+              // mystack.print();
+
+              //My Queue implementation using LinkedList as ADT
+              Queue myqueue = new Queue(50);
+              myqueue.Enqueue(35);
+              myqueue.Enqueue(5);
+              myqueue.Enqueue(69);
+              myqueue.Enqueue(24);
+              myqueue.Dequeue();
+              myqueue.Dequeue();
+              myqueue.peek();
+              myqueue.Dequeue();
+              myqueue.Print();
 
 
         }
