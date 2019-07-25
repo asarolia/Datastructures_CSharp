@@ -10,6 +10,7 @@
         "dependencies": {
           "HashTable": "1.0.0",
           "LinkedList": "1.0.0",
+          "Queues": "1.0.0",
           "Stacks": "1.0.0"
         },
         "runtime": {
@@ -24,6 +25,11 @@
       "LinkedList/1.0.0": {
         "runtime": {
           "LinkedList.dll": {}
+        }
+      },
+      "Queues/1.0.0": {
+        "runtime": {
+          "Queues.dll": {}
         }
       },
       "Stacks/1.0.0": {
@@ -45,6 +51,11 @@
       "sha512": ""
     },
     "LinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Queues/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

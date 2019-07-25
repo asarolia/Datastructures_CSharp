@@ -4,6 +4,7 @@
     <ProjectReference Include="..\HashTable\HashTable.csproj" />
     <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
     <ProjectReference Include="..\Stacks\Stacks.csproj" />
+    <ProjectReference Include="..\Queues\Queues.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -2,6 +2,7 @@
 using System.Text;
 using HashTable;
 using LinkedList;
+using Queues;
 using Stacks;
 
 
@@ -75,16 +76,28 @@ namespace Arrays
               //  mydLinkedList.PrintAllNodes();
 
               // My stacks implementation using LinkedList as ADT
-              LinkedStack mystack = new LinkedStack(50);
-              mystack.push(35);
-              mystack.push(5);
-              mystack.push(69);
-              mystack.push(24);
-              mystack.peek();
-              mystack.pop();
-              mystack.peek();
-              mystack.pop();
-              mystack.print();
+              // LinkedStack mystack = new LinkedStack(50);
+              // mystack.push(35);
+              // mystack.push(5);
+              // mystack.push(69);
+              // mystack.push(24);
+              // mystack.peek();
+              // mystack.pop();
+              // mystack.peek();
+              // mystack.pop();
+              // mystack.print();
+
+              //My Queue implementation using LinkedList as ADT
+              Queue myqueue = new Queue(50);
+              myqueue.Enqueue(35);
+              myqueue.Enqueue(5);
+              myqueue.Enqueue(69);
+              myqueue.Enqueue(24);
+              myqueue.Dequeue();
+              myqueue.Dequeue();
+              myqueue.peek();
+              myqueue.Dequeue();
+              myqueue.Print();
 
 
         }
