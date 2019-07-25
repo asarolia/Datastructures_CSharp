@@ -9,7 +9,8 @@
       "Arrays/1.0.0": {
         "dependencies": {
           "HashTable": "1.0.0",
-          "LinkedList": "1.0.0"
+          "LinkedList": "1.0.0",
+          "Stacks": "1.0.0"
         },
         "runtime": {
           "Arrays.dll": {}
@@ -23,6 +24,11 @@
       "LinkedList/1.0.0": {
         "runtime": {
           "LinkedList.dll": {}
+        }
+      },
+      "Stacks/1.0.0": {
+        "runtime": {
+          "Stacks.dll": {}
         }
       }
     }
@@ -39,6 +45,11 @@
       "sha512": ""
     },
     "LinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stacks/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

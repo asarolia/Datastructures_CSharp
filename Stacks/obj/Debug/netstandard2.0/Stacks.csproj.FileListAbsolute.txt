@@ -1,0 +1,9 @@
+D:\github\datastructures_csharp\Stacks\obj\Debug\netstandard2.0\Stacks.csprojAssemblyReference.cache
+D:\github\datastructures_csharp\Stacks\obj\Debug\netstandard2.0\Stacks.csproj.CoreCompileInputs.cache
+D:\github\datastructures_csharp\Stacks\obj\Debug\netstandard2.0\Stacks.AssemblyInfoInputs.cache
+D:\github\datastructures_csharp\Stacks\obj\Debug\netstandard2.0\Stacks.AssemblyInfo.cs
+D:\github\datastructures_csharp\Stacks\bin\Debug\netstandard2.0\Stacks.deps.json
+D:\github\datastructures_csharp\Stacks\bin\Debug\netstandard2.0\Stacks.dll
+D:\github\datastructures_csharp\Stacks\bin\Debug\netstandard2.0\Stacks.pdb
+D:\github\datastructures_csharp\Stacks\obj\Debug\netstandard2.0\Stacks.dll
+D:\github\datastructures_csharp\Stacks\obj\Debug\netstandard2.0\Stacks.pdb

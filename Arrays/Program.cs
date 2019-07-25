@@ -2,6 +2,7 @@
 using System.Text;
 using HashTable;
 using LinkedList;
+using Stacks;
 
 
 namespace Arrays
@@ -46,18 +47,18 @@ namespace Arrays
             //    robj.PrintRecurringElement();
 
             // My Singly Linked List implementation 
-               LinkedListClass myLinkedList = new LinkedListClass(10);
-               myLinkedList.AppendNode(25);
-               myLinkedList.AppendNode(5);
-               myLinkedList.PrePend(4);
-               myLinkedList.PrePend(1);
+              //  LinkedListClass myLinkedList = new LinkedListClass(10);
+              //  myLinkedList.AppendNode(25);
+              //  myLinkedList.AppendNode(5);
+              //  myLinkedList.PrePend(4);
+              //  myLinkedList.PrePend(1);
+              // //  myLinkedList.PrintAllNodes();
+              //  myLinkedList.Insert(3,100);
+              // // myLinkedList.PrintAllNodes();
+              //  myLinkedList.Remove(25);
               //  myLinkedList.PrintAllNodes();
-               myLinkedList.Insert(3,100);
-              // myLinkedList.PrintAllNodes();
-               myLinkedList.Remove(25);
-               myLinkedList.PrintAllNodes();
-               myLinkedList.ReverseList();
-               myLinkedList.PrintAllNodes();
+              //  myLinkedList.ReverseList();
+              //  myLinkedList.PrintAllNodes();
 
                // My Doubly Linked List implementation 
               //  DoublyLinkedList mydLinkedList = new DoublyLinkedList(10);
@@ -72,6 +73,18 @@ namespace Arrays
               //   mydLinkedList.Remove(1);
               //   mydLinkedList.Remove(5);
               //  mydLinkedList.PrintAllNodes();
+
+              // My stacks implementation using LinkedList as ADT
+              LinkedStack mystack = new LinkedStack(50);
+              mystack.push(35);
+              mystack.push(5);
+              mystack.push(69);
+              mystack.push(24);
+              mystack.peek();
+              mystack.pop();
+              mystack.peek();
+              mystack.pop();
+              mystack.print();
 
 
         }
