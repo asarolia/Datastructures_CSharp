@@ -11,7 +11,8 @@
           "HashTable": "1.0.0",
           "LinkedList": "1.0.0",
           "Queues": "1.0.0",
-          "Stacks": "1.0.0"
+          "Stacks": "1.0.0",
+          "Trees": "1.0.0"
         },
         "runtime": {
           "Arrays.dll": {}
@@ -35,6 +36,11 @@
       "Stacks/1.0.0": {
         "runtime": {
           "Stacks.dll": {}
+        }
+      },
+      "Trees/1.0.0": {
+        "runtime": {
+          "Trees.dll": {}
         }
       }
     }
@@ -61,6 +67,11 @@
       "sha512": ""
     },
     "Stacks/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Trees/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

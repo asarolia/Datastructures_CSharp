@@ -5,6 +5,7 @@
     <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
     <ProjectReference Include="..\Stacks\Stacks.csproj" />
     <ProjectReference Include="..\Queues\Queues.csproj" />
+    <ProjectReference Include="..\Trees\Trees.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -247,6 +247,16 @@
         "runtime": {
           "bin/placeholder/Stacks.dll": {}
         }
+      },
+      "Trees/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Trees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Trees.dll": {}
+        }
       }
     }
   },
@@ -738,6 +748,11 @@
       "type": "project",
       "path": "../Stacks/Stacks.csproj",
       "msbuildProject": "../Stacks/Stacks.csproj"
+    },
+    "Trees/1.0.0": {
+      "type": "project",
+      "path": "../Trees/Trees.csproj",
+      "msbuildProject": "../Trees/Trees.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -746,7 +761,8 @@
       "LinkedList >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Queues >= 1.0.0",
-      "Stacks >= 1.0.0"
+      "Stacks >= 1.0.0",
+      "Trees >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -790,6 +806,9 @@
             },
             "D:\\github\\datastructures_csharp\\Stacks\\Stacks.csproj": {
               "projectPath": "D:\\github\\datastructures_csharp\\Stacks\\Stacks.csproj"
+            },
+            "D:\\github\\datastructures_csharp\\Trees\\Trees.csproj": {
+              "projectPath": "D:\\github\\datastructures_csharp\\Trees\\Trees.csproj"
             }
           }
         }
