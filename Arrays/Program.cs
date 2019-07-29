@@ -18,6 +18,8 @@ namespace Arrays
         public static string[] arr1 = {"1","3","18","25"};
 
         public static string[] arr2 = {"23","35","35","96"};
+
+        private static string inputCode = "MadAm23";
          
         static void Main(string[] args)
         {
@@ -121,13 +123,18 @@ namespace Arrays
               //  bstobj.PrintTree();
 
               // My custom implementation around Trie data structure
-                 Trie myTrieObj = new Trie();
-                 myTrieObj.Insert("test");
-                 myTrieObj.Insert("this");
-                 myTrieObj.Insert("there");
-                 myTrieObj.Insert("answer");
-                 myTrieObj.Search("this");
-                 myTrieObj.Search("spain");
+                //  Trie myTrieObj = new Trie();
+                //  myTrieObj.Insert("test");
+                //  myTrieObj.Insert("this");
+                //  myTrieObj.Insert("there");
+                //  myTrieObj.Insert("answer");
+                //  myTrieObj.Search("this");
+                //  myTrieObj.Search("spain");
+
+                 // Honeywell make palindrome
+                 Honeywell obj = new Honeywell();
+                 obj.MakePalindrome(inputCode);
+
 
         }
     }
