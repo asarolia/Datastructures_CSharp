@@ -238,6 +238,16 @@
           "bin/placeholder/Queues.dll": {}
         }
       },
+      "Sort/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sort.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sort.dll": {}
+        }
+      },
       "Stacks/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -744,6 +754,11 @@
       "path": "../Queues/Queues.csproj",
       "msbuildProject": "../Queues/Queues.csproj"
     },
+    "Sort/1.0.0": {
+      "type": "project",
+      "path": "../Sort/Sort.csproj",
+      "msbuildProject": "../Sort/Sort.csproj"
+    },
     "Stacks/1.0.0": {
       "type": "project",
       "path": "../Stacks/Stacks.csproj",
@@ -761,6 +776,7 @@
       "LinkedList >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Queues >= 1.0.0",
+      "Sort >= 1.0.0",
       "Stacks >= 1.0.0",
       "Trees >= 1.0.0"
     ]
@@ -803,6 +819,9 @@
             },
             "D:\\github\\datastructures_csharp\\Queues\\Queues.csproj": {
               "projectPath": "D:\\github\\datastructures_csharp\\Queues\\Queues.csproj"
+            },
+            "D:\\github\\datastructures_csharp\\Sort\\Sort.csproj": {
+              "projectPath": "D:\\github\\datastructures_csharp\\Sort\\Sort.csproj"
             },
             "D:\\github\\datastructures_csharp\\Stacks\\Stacks.csproj": {
               "projectPath": "D:\\github\\datastructures_csharp\\Stacks\\Stacks.csproj"

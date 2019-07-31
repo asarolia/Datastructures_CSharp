@@ -1,0 +1,4 @@
+D:\github\datastructures_csharp\Graphs\obj\Debug\netstandard2.0\Graphs.csprojAssemblyReference.cache
+D:\github\datastructures_csharp\Graphs\obj\Debug\netstandard2.0\Graphs.csproj.CoreCompileInputs.cache
+D:\github\datastructures_csharp\Graphs\obj\Debug\netstandard2.0\Graphs.AssemblyInfoInputs.cache
+D:\github\datastructures_csharp\Graphs\obj\Debug\netstandard2.0\Graphs.AssemblyInfo.cs

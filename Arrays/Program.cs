@@ -3,6 +3,7 @@ using System.Text;
 using HashTable;
 using LinkedList;
 using Queues;
+using Sort;
 using Stacks;
 using Trees;
 
@@ -132,8 +133,20 @@ namespace Arrays
                 //  myTrieObj.Search("spain");
 
                  // Honeywell make palindrome
-                 Honeywell obj = new Honeywell();
-                 obj.MakePalindrome(inputCode);
+                //  Honeywell obj = new Honeywell();
+                //  obj.MakePalindrome(inputCode);
+
+                // Bubble sort implementation 
+                // BubbleSort bsobj = new BubbleSort();
+                // bsobj.SortAscending();
+
+                // Selection sort implementation
+                // SelectionSort ssobj =new SelectionSort();
+                // ssobj.Sort();
+
+                // Insertion sort implementation
+                InsertionSort iobj = new InsertionSort();
+                iobj.Sort();
 
 
         }

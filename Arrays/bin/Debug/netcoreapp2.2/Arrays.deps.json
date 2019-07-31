@@ -11,6 +11,7 @@
           "HashTable": "1.0.0",
           "LinkedList": "1.0.0",
           "Queues": "1.0.0",
+          "Sort": "1.0.0",
           "Stacks": "1.0.0",
           "Trees": "1.0.0"
         },
@@ -31,6 +32,11 @@
       "Queues/1.0.0": {
         "runtime": {
           "Queues.dll": {}
+        }
+      },
+      "Sort/1.0.0": {
+        "runtime": {
+          "Sort.dll": {}
         }
       },
       "Stacks/1.0.0": {
@@ -62,6 +68,11 @@
       "sha512": ""
     },
     "Queues/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sort/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
