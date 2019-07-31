@@ -3,6 +3,7 @@ using System.Text;
 using HashTable;
 using LinkedList;
 using Queues;
+using Sort;
 using Stacks;
 using Trees;
 
@@ -18,6 +19,8 @@ namespace Arrays
         public static string[] arr1 = {"1","3","18","25"};
 
         public static string[] arr2 = {"23","35","35","96"};
+
+        private static string inputCode = "MadAm23";
          
         static void Main(string[] args)
         {
@@ -101,26 +104,49 @@ namespace Arrays
               // myqueue.Print();
 
               // My Binary search tree implementation using LinkedList as ADT
-               BinarySearchTree bstobj = new BinarySearchTree(41);
-               bstobj.Insert(65);
-               bstobj.Insert(20);
-               bstobj.Insert(50);
-               bstobj.Insert(91);
-               bstobj.Insert(99);
-               bstobj.Insert(72);
-               bstobj.Insert(29);
-               bstobj.Insert(11);
-               bstobj.Insert(32);
-               bstobj.PrintTree();
-               Console.WriteLine("After New Insert:");
-               bstobj.Insert(24);
-               bstobj.PrintTree();
-               Console.WriteLine("Remove:");
-               bstobj.Remove(91);
-               Console.WriteLine("After Remove:");
-               bstobj.PrintTree();
+              //  BinarySearchTree bstobj = new BinarySearchTree(41);
+              //  bstobj.Insert(65);
+              //  bstobj.Insert(20);
+              //  bstobj.Insert(50);
+              //  bstobj.Insert(91);
+              //  bstobj.Insert(99);
+              //  bstobj.Insert(72);
+              //  bstobj.Insert(29);
+              //  bstobj.Insert(11);
+              //  bstobj.Insert(32);
+              //  bstobj.PrintTree();
+              //  Console.WriteLine("After New Insert:");
+              //  bstobj.Insert(24);
+              //  bstobj.PrintTree();
+              //  Console.WriteLine("Remove:");
+              //  bstobj.Remove(91);
+              //  Console.WriteLine("After Remove:");
+              //  bstobj.PrintTree();
 
-              
+              // My custom implementation around Trie data structure
+                //  Trie myTrieObj = new Trie();
+                //  myTrieObj.Insert("test");
+                //  myTrieObj.Insert("this");
+                //  myTrieObj.Insert("there");
+                //  myTrieObj.Insert("answer");
+                //  myTrieObj.Search("this");
+                //  myTrieObj.Search("spain");
+
+                 // Honeywell make palindrome
+                //  Honeywell obj = new Honeywell();
+                //  obj.MakePalindrome(inputCode);
+
+                // Bubble sort implementation 
+                // BubbleSort bsobj = new BubbleSort();
+                // bsobj.SortAscending();
+
+                // Selection sort implementation
+                // SelectionSort ssobj =new SelectionSort();
+                // ssobj.Sort();
+
+                // Insertion sort implementation
+                InsertionSort iobj = new InsertionSort();
+                iobj.Sort();
 
 
         }

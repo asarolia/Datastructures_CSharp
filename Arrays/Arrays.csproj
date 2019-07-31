@@ -6,6 +6,7 @@
     <ProjectReference Include="..\Stacks\Stacks.csproj" />
     <ProjectReference Include="..\Queues\Queues.csproj" />
     <ProjectReference Include="..\Trees\Trees.csproj" />
+    <ProjectReference Include="..\Sort\Sort.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -20,3 +20,5 @@ D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\Queues.dll
 D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\Queues.pdb
 D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\Trees.dll
 D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\Trees.pdb
+D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\Sort.dll
+D:\github\datastructures_csharp\Arrays\bin\Debug\netcoreapp2.2\Sort.pdb
