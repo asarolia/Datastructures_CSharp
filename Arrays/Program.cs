@@ -145,8 +145,16 @@ namespace Arrays
                 // ssobj.Sort();
 
                 // Insertion sort implementation
-                InsertionSort iobj = new InsertionSort();
-                iobj.Sort();
+                // InsertionSort iobj = new InsertionSort();
+                // iobj.Sort();
+
+                // Merge Sort implementation
+                // MergeSort msobj = new MergeSort();
+                // msobj.Sort();
+
+                //QuickSort implementation
+                QuickSort qobj = new QuickSort();
+                qobj.Sort();
 
 
         }
