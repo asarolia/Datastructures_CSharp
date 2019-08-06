@@ -103,25 +103,28 @@ namespace Arrays
               // myqueue.Dequeue();
               // myqueue.Print();
 
-              // My Binary search tree implementation using LinkedList as ADT
-              //  BinarySearchTree bstobj = new BinarySearchTree(41);
-              //  bstobj.Insert(65);
-              //  bstobj.Insert(20);
-              //  bstobj.Insert(50);
-              //  bstobj.Insert(91);
-              //  bstobj.Insert(99);
-              //  bstobj.Insert(72);
-              //  bstobj.Insert(29);
-              //  bstobj.Insert(11);
-              //  bstobj.Insert(32);
-              //  bstobj.PrintTree();
-              //  Console.WriteLine("After New Insert:");
-              //  bstobj.Insert(24);
-              //  bstobj.PrintTree();
-              //  Console.WriteLine("Remove:");
-              //  bstobj.Remove(91);
-              //  Console.WriteLine("After Remove:");
-              //  bstobj.PrintTree();
+              //My Binary search tree implementation using LinkedList as ADT
+               BinarySearchTree bstobj = new BinarySearchTree(41);
+               bstobj.Insert(65);
+               bstobj.Insert(20);
+               bstobj.Insert(50);
+               bstobj.Insert(91);
+               bstobj.Insert(99);
+               bstobj.Insert(72);
+               bstobj.Insert(29);
+               bstobj.Insert(11);
+               bstobj.Insert(32);
+               bstobj.PrintTree();
+               Console.WriteLine("After New Insert:");
+               bstobj.Insert(24);
+               bstobj.PrintTree();
+               Console.WriteLine("Remove:");
+               bstobj.Remove(91);
+               Console.WriteLine("After Remove:");
+               bstobj.PrintTree();
+               bstobj.BreadthFirstSearch();
+               Console.WriteLine("Recursive BFS :");
+               Console.WriteLine(bstobj.BreadthFirstSearchRecursive());
 
               // My custom implementation around Trie data structure
                 //  Trie myTrieObj = new Trie();
@@ -153,8 +156,8 @@ namespace Arrays
                 // msobj.Sort();
 
                 //QuickSort implementation
-                QuickSort qobj = new QuickSort();
-                qobj.Sort();
+                // QuickSort qobj = new QuickSort();
+                // qobj.Sort();
 
 
         }
