@@ -115,16 +115,23 @@ namespace Arrays
                bstobj.Insert(11);
                bstobj.Insert(32);
                bstobj.PrintTree();
-               Console.WriteLine("After New Insert:");
+             //  Console.WriteLine("After New Insert:");
                bstobj.Insert(24);
-               bstobj.PrintTree();
-               Console.WriteLine("Remove:");
-               bstobj.Remove(91);
-               Console.WriteLine("After Remove:");
-               bstobj.PrintTree();
+             //  bstobj.PrintTree();
+             //  Console.WriteLine("Remove:");
+             //  bstobj.Remove(91);
+             //  Console.WriteLine("After Remove:");
+             //  bstobj.PrintTree();
                bstobj.BreadthFirstSearch();
-               Console.WriteLine("Recursive BFS :");
+               Console.WriteLine("\n Recursive BFS :");
                Console.WriteLine(bstobj.BreadthFirstSearchRecursive());
+               bstobj.DepthFirstSearchInOrder();
+               Console.WriteLine("\n Recursive DFS In Order:");
+               bstobj.DepthFirstSearchInOrderRecursive();
+               Console.WriteLine("\n Recursive DFS Pre Order:");
+               bstobj.DepthFirstSearchPreOrderRecursive();
+               Console.WriteLine("\n Recursive DFS Post Order:");
+               bstobj.DepthFirstSearchPostOrderRecursive();
 
               // My custom implementation around Trie data structure
                 //  Trie myTrieObj = new Trie();
