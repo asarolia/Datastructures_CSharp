@@ -16,6 +16,8 @@
 
  */
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Trees
 {
@@ -27,6 +29,11 @@ namespace Trees
         private TreeNode previous;
         private int treeHeight;
         private int treeNodes;
+
+        // Array list to store the DFS nodes 
+                List<int> op = new List<int>();
+              // Stack to store nodes at each level
+               Stack myStack = new Stack();
 
         public BinarySearchTree(int value)
         {
@@ -254,12 +261,269 @@ namespace Trees
             }
         }
 
-        
+        /*
+                                41
+                    20                     65
+                 11       29          50  	    91
+                       24     32              72   99
 
-        
 
+
+        DFS Traversal :
+
+        In order(Left,Root,Right)  - {11,20,24,29,32,41,50,65,72,91,99}
+        Pre order(Root,left,right) - {41,20,11,29,24,32,65,50,91,72,99} 
+        Post oredr(Left,right,root)- {11,24,32,29,20,50,72,99,91,65,41}
+                
+                */
+        public void DepthFirstSearchInOrderRecursive()
+        {
+           TreeNode current = this.root;
+           DFSInOrderTraversal(current);
+              
+        }
+
+        public void DepthFirstSearchPreOrderRecursive()
+        {
+           TreeNode current = this.root;
+           DFSPreOrderTraversal(current);
+              
+        }
+
+        public void DepthFirstSearchPostOrderRecursive()
+        {
+           TreeNode current = this.root;
+           DFSPostOrderTraversal(current);
+              
+        }
+
+        public void DFSInOrderTraversal(TreeNode current)
+        {
+             if(current != null)
+            {
+                // traverse on left Node
+                DFSInOrderTraversal(current.LEFTNODE);
+        
+                // Handle node value 
+                Console.Write(current.NODEVALUE.ToString() + " ");
+
+                // Traverse on Right Node
+                DFSInOrderTraversal(current.RIGHTNODE);                
+
+            }
+        }
+
+          public void DFSPreOrderTraversal(TreeNode current)
+        {
+             if(current != null)
+            {
+                // Handle node value 
+                Console.Write(current.NODEVALUE.ToString() + " ");
+
+                // traverse on left Node
+                DFSPreOrderTraversal(current.LEFTNODE);
+                      
+                // Traverse on Right Node
+                DFSPreOrderTraversal(current.RIGHTNODE);                
+
+            }
+        }
+
+            public void DFSPostOrderTraversal(TreeNode current)
+        {
+             if(current != null)
+            {
+               
+                // traverse on left Node
+                DFSPostOrderTraversal(current.LEFTNODE);
+                      
+                // Traverse on Right Node
+                DFSPostOrderTraversal(current.RIGHTNODE);
+
+                 // Handle node value 
+                Console.Write(current.NODEVALUE.ToString() + " ");
+                
+
+            }
+        }
+
+       
+
+        public void DepthFirstSearchInOrder()
+         {
+             TreeNode current = this.root;
+              // Array list to store the DFS nodes 
+                List<int> op = new List<int>();
+              // Stack to store nodes at each level
+               Stack myStack = new Stack();
+              //push the first root node on stack
+              myStack.Push(current);
+
+              while(myStack.Count > 0)
+              {
+                  // pick value from top of stack
+                  TreeNode item = (TreeNode)myStack.Pop();
+                 
+                      // first time traversal of parent node 
+                      // check if fetched items has any left node
+
+                        if (item.LEFTNODE != null)
+                       {
+                           // Check if we are retraversing the parent in stack
+                           if(op.Contains(item.LEFTNODE.NODEVALUE))
+                           {
+                               // means we have already traversed left node
+                               //push current element on output list
+                               op.Add(item.NODEVALUE);
+                               // push right node on stack if not null
+                               if(item.RIGHTNODE != null)
+                               {
+                                   myStack.Push(item.RIGHTNODE);
+                               }
+
+                           }else
+                           {
+                            // push the current item back into stack as we have to first process the left node 
+                            myStack.Push(item);
+                            //push the left node item also on stack
+                            myStack.Push(item.LEFTNODE);
+
+                           }
+                        }else
+                        {
+                            // means left node is null , thus we can treat this as leaf with no further left node
+                            op.Add(item.NODEVALUE);
+                            // Check if there are any right node or not , if it is there then push that on stack
+                            if(item.RIGHTNODE != null)
+                            {
+                                // push right node on stack
+                                myStack.Push(item.RIGHTNODE);
+
+                            }
+
+                        }
+              } 
+
+            // Print the output list 
+            Console.WriteLine("DFS In Order (Left,Root,Right) Output:");
+
+            // Display the output 
+            foreach (var item in op)
+            {
+                Console.Write(item + " ");
+            }
+             
+
+         }
+        
+            // function to implement BFS
+            //       19
+            //  12        25
+            // 6   13   20    26
+            // BFS -   { 19, 12, 25, 6, 13, 20, 26}
+            // DFS (In order)  - { 6, 12, 13, 19, 20,25, 26}
+            
+        // Iterative appraoch for BFS    
+        public void BreadthFirstSearch()
+        {
+            // This function should start from root and keep on traversing all nodes from left to right at each level
+            // Start from root
+            TreeNode currentNode = this.root;
+            // Array list to store the BFS nodes 
+            List<int> op = new List<int>();
+            // Queue to store the nodes at each level
+            Queue<TreeNode> myQ = new Queue<TreeNode>();
+            // push the first/root element in Queue
+            myQ.Enqueue(currentNode);
+            
+
+            // Now, continue to process the contents from Queue
+
+            while(myQ.Count > 0)
+            {
+                // Dequeue the current first item from Queue
+                TreeNode fetched = myQ.Dequeue();
+                // push the node value to output list also
+                op.Add(fetched.NODEVALUE);
+                if(fetched.LEFTNODE != null)
+                {
+                    myQ.Enqueue(fetched.LEFTNODE);
+                }
+                if(fetched.RIGHTNODE != null)
+                {
+                    myQ.Enqueue(fetched.RIGHTNODE);
+                }
+            } 
+
+
+            Console.WriteLine("BFS Output:");
+
+            // Display the output 
+            foreach (var item in op)
+            {
+                Console.Write(item + " ");
+            }
+             
+
+
+        }
+     
+        // recursive approach 
+        public string BreadthFirstSearchRecursive()
+        {
+            // Queue to store 
+            Queue<TreeNode> myQ = new Queue<TreeNode>();
+
+            // Output list
+            List<int> op = new List<int>();
+
+            // set the root node 
+            TreeNode currentNode = this.root;
+
+            myQ.Enqueue(currentNode);
+
+            return BFSRecursiveTraverse(myQ,op);
+            
+
+
+        }
+
+        private string BFSRecursiveTraverse(Queue<TreeNode> myQ, List<int> op)
+        {
+            string result = "";
+            // base condition , when to stop the recursive call
+            if (myQ.Count > 0)
+            {
+                // fetch the node from queue
+                TreeNode fetched = myQ.Dequeue();
+                // push the node value on output list
+                op.Add(fetched.NODEVALUE);
+                // check if any left or right child
+                if(fetched.LEFTNODE != null)
+                {
+                    myQ.Enqueue(fetched.LEFTNODE);
+                }
+                if(fetched.RIGHTNODE != null)
+                {
+                    myQ.Enqueue(fetched.RIGHTNODE);
+                }
+
+                BFSRecursiveTraverse(myQ,op);
+                
+            }
+
+            // process the output list
+            foreach (var item in op)
+            {
+                result = result + " " + item.ToString();
+            }
+
+
+         return result;   
+        }
     }
 
+    // class for Node structure
     public class TreeNode
     {
         private int nodeValue;
@@ -305,4 +569,8 @@ namespace Trees
             }
         }
     }
+
+    // class for Queue operation for BFS and DFS 
+
+     
 }

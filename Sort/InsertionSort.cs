@@ -1,4 +1,9 @@
 namespace Sort{
+
+    /*
+    Time complexity is O(n^2), comparison complexity of O(n) with elements before insert can be improved by utilizing  binary search
+    because the list is is sorted array , so overall complexity can become nlogN for binary insertion sort.
+     */
     using System;
 
     public class InsertionSort
@@ -43,7 +48,7 @@ namespace Sort{
 
 
                 }
-                    // Finds the insertion position in sorted list for latest fetched element
+                    // Finds the insertion position in sorted list for latest fetched element, O(n)
                     for (int k = i-1 ; k >= 0; k--)
                     {
                         if((this.inputArray[k+1] < this.inputArray[k]))
