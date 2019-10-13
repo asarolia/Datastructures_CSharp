@@ -7,3 +7,12 @@ D:\github\datastructures_csharp\Queues\bin\Debug\netstandard2.0\Queues.dll
 D:\github\datastructures_csharp\Queues\bin\Debug\netstandard2.0\Queues.pdb
 D:\github\datastructures_csharp\Queues\obj\Debug\netstandard2.0\Queues.dll
 D:\github\datastructures_csharp\Queues\obj\Debug\netstandard2.0\Queues.pdb
+C:\github\Datastructures_CSharp\Queues\bin\Debug\netstandard2.0\Queues.deps.json
+C:\github\Datastructures_CSharp\Queues\bin\Debug\netstandard2.0\Queues.dll
+C:\github\Datastructures_CSharp\Queues\bin\Debug\netstandard2.0\Queues.pdb
+C:\github\Datastructures_CSharp\Queues\obj\Debug\netstandard2.0\Queues.csprojAssemblyReference.cache
+C:\github\Datastructures_CSharp\Queues\obj\Debug\netstandard2.0\Queues.csproj.CoreCompileInputs.cache
+C:\github\Datastructures_CSharp\Queues\obj\Debug\netstandard2.0\Queues.AssemblyInfoInputs.cache
+C:\github\Datastructures_CSharp\Queues\obj\Debug\netstandard2.0\Queues.AssemblyInfo.cs
+C:\github\Datastructures_CSharp\Queues\obj\Debug\netstandard2.0\Queues.dll
+C:\github\Datastructures_CSharp\Queues\obj\Debug\netstandard2.0\Queues.pdb

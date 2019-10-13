@@ -7,3 +7,12 @@ D:\github\datastructures_csharp\Sort\obj\Debug\netstandard2.0\Sort.AssemblyInfoI
 D:\github\datastructures_csharp\Sort\obj\Debug\netstandard2.0\Sort.AssemblyInfo.cs
 D:\github\datastructures_csharp\Sort\obj\Debug\netstandard2.0\Sort.dll
 D:\github\datastructures_csharp\Sort\obj\Debug\netstandard2.0\Sort.pdb
+C:\github\Datastructures_CSharp\Sort\bin\Debug\netstandard2.0\Sort.deps.json
+C:\github\Datastructures_CSharp\Sort\bin\Debug\netstandard2.0\Sort.dll
+C:\github\Datastructures_CSharp\Sort\bin\Debug\netstandard2.0\Sort.pdb
+C:\github\Datastructures_CSharp\Sort\obj\Debug\netstandard2.0\Sort.csprojAssemblyReference.cache
+C:\github\Datastructures_CSharp\Sort\obj\Debug\netstandard2.0\Sort.csproj.CoreCompileInputs.cache
+C:\github\Datastructures_CSharp\Sort\obj\Debug\netstandard2.0\Sort.AssemblyInfoInputs.cache
+C:\github\Datastructures_CSharp\Sort\obj\Debug\netstandard2.0\Sort.AssemblyInfo.cs
+C:\github\Datastructures_CSharp\Sort\obj\Debug\netstandard2.0\Sort.dll
+C:\github\Datastructures_CSharp\Sort\obj\Debug\netstandard2.0\Sort.pdb

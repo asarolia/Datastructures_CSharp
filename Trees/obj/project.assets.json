@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asarolia.EAD\\.nuget\\packages\\": {},
-    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\asarolia\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\datastructures_csharp\\Trees\\Trees.csproj",
+      "projectUniqueName": "C:\\github\\Datastructures_CSharp\\Trees\\Trees.csproj",
       "projectName": "Trees",
-      "projectPath": "D:\\github\\datastructures_csharp\\Trees\\Trees.csproj",
-      "packagesPath": "C:\\Users\\asarolia.EAD\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\datastructures_csharp\\Trees\\obj\\",
+      "projectPath": "C:\\github\\Datastructures_CSharp\\Trees\\Trees.csproj",
+      "packagesPath": "C:\\Users\\asarolia\\.nuget\\packages\\",
+      "outputPath": "C:\\github\\Datastructures_CSharp\\Trees\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\asarolia.EAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asarolia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

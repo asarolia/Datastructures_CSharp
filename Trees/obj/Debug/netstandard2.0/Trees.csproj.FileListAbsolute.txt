@@ -7,3 +7,12 @@ D:\github\datastructures_csharp\Trees\bin\Debug\netstandard2.0\Trees.dll
 D:\github\datastructures_csharp\Trees\bin\Debug\netstandard2.0\Trees.pdb
 D:\github\datastructures_csharp\Trees\obj\Debug\netstandard2.0\Trees.dll
 D:\github\datastructures_csharp\Trees\obj\Debug\netstandard2.0\Trees.pdb
+C:\github\Datastructures_CSharp\Trees\bin\Debug\netstandard2.0\Trees.deps.json
+C:\github\Datastructures_CSharp\Trees\bin\Debug\netstandard2.0\Trees.dll
+C:\github\Datastructures_CSharp\Trees\bin\Debug\netstandard2.0\Trees.pdb
+C:\github\Datastructures_CSharp\Trees\obj\Debug\netstandard2.0\Trees.csprojAssemblyReference.cache
+C:\github\Datastructures_CSharp\Trees\obj\Debug\netstandard2.0\Trees.csproj.CoreCompileInputs.cache
+C:\github\Datastructures_CSharp\Trees\obj\Debug\netstandard2.0\Trees.AssemblyInfoInputs.cache
+C:\github\Datastructures_CSharp\Trees\obj\Debug\netstandard2.0\Trees.AssemblyInfo.cs
+C:\github\Datastructures_CSharp\Trees\obj\Debug\netstandard2.0\Trees.dll
+C:\github\Datastructures_CSharp\Trees\obj\Debug\netstandard2.0\Trees.pdb
