@@ -7,3 +7,12 @@ D:\github\datastructures_csharp\HashTable\bin\Debug\netstandard2.0\HashTable.dll
 D:\github\datastructures_csharp\HashTable\bin\Debug\netstandard2.0\HashTable.pdb
 D:\github\datastructures_csharp\HashTable\obj\Debug\netstandard2.0\HashTable.dll
 D:\github\datastructures_csharp\HashTable\obj\Debug\netstandard2.0\HashTable.pdb
+C:\github\Datastructures_CSharp\HashTable\bin\Debug\netstandard2.0\HashTable.deps.json
+C:\github\Datastructures_CSharp\HashTable\bin\Debug\netstandard2.0\HashTable.dll
+C:\github\Datastructures_CSharp\HashTable\bin\Debug\netstandard2.0\HashTable.pdb
+C:\github\Datastructures_CSharp\HashTable\obj\Debug\netstandard2.0\HashTable.csprojAssemblyReference.cache
+C:\github\Datastructures_CSharp\HashTable\obj\Debug\netstandard2.0\HashTable.csproj.CoreCompileInputs.cache
+C:\github\Datastructures_CSharp\HashTable\obj\Debug\netstandard2.0\HashTable.AssemblyInfoInputs.cache
+C:\github\Datastructures_CSharp\HashTable\obj\Debug\netstandard2.0\HashTable.AssemblyInfo.cs
+C:\github\Datastructures_CSharp\HashTable\obj\Debug\netstandard2.0\HashTable.dll
+C:\github\Datastructures_CSharp\HashTable\obj\Debug\netstandard2.0\HashTable.pdb
